@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+.box_1 {
+    top: 50px;
+    left: 50px;
+
+}
+.box_2 {
+    top: 152px;
+    left: 152px;
+
+}
+.box_3 {
+    top: 254px;
+    left: 254px;
+
+}
+.box_4 {
+    top: 356px;
+    left: 356px;
+
+}
+.post{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 50px;
+    position: relative;
+}
+.post button{
+    background-color: #BC0000;
+    color: aliceblue;
+    border: none ;
+    cursor: pointer;
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    transform: translate(-50%, 50%);
+
+}
+.marker{
+
+    border: 2px solid red;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    background-color: #D4DBE2;
+   
+    
+}
+nav{
+    padding: 30px;
+    background-color: #7B7C81;
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+nav a{
+    color: #012E4A;
+    text-decoration: none;
+    margin: 0 20px;
+}
